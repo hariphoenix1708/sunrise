@@ -27,21 +27,3 @@ cd /content
 # Model Code
 cp /content/drive/MyDrive/Stable-diffusion/isw-woman-1500-isw.ckpt /content/microsoftexcel/models/Stable-diffusion/isw-woman-1500-isw.ckpt
 cp /content/drive/MyDrive/Stable-diffusion/iswdef-woman-1611-iswdef.ckpt /content/microsoftexcel/models/Stable-diffusion/iswdef-woman-1611-iswdef.ckpt
-
-import shutil
-shutil.rmtree('/content/microsoftexcel/embeddings')
-rm microsoftexcel.zip
-rm microsoftexcel-images-browser.zip
-cd /content/microsoftexcel
-git clone https://huggingface.co/nolanaatama/embeddings
-cd /content/microsoftexcel/models
-git clone https://huggingface.co/nolanaatama/ESRGAN
-cd /content/microsoftexcel/extensions/a1111-microsoftexcel-locon
-git checkout 04b768b
-cd /content/microsoftexcel/extensions/a1111-microsoftexcel-tagcomplete
-git checkout f9f7732
-cd /content/microsoftexcel
-# Web UI tunnel
-#!COMMANDLINE_ARGS="--share --disable-safe-unpickle --no-half-vae --xformers --enable-insecure-extension --gradio-queue" REQS_FILE="requirements.txt" python launch.py
-# Use this command below to use cloudflare tunnel
-!COMMANDLINE_ARGS="--disable-safe-unpickle --no-half-vae --xformers --enable-insecure-extension --gradio-queue --cloudflared" REQS_FILE="requirements.txt" python launch.py
