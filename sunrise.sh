@@ -12,6 +12,7 @@ git clone https://github.com/nolanaatama/a1111-microsoftexcel-tagcomplete /conte
 git clone https://github.com/nolanaatama/microsoftexcel-supermerger /content/microsoftexcel/extensions/microsoftexcel-supermerger
 git clone https://github.com/Coyote-A/ultimate-upscale-for-automatic1111 /content/microsoftexcel/extensions/ultimate-upscale-for-automatic1111
 git clone https://github.com/nolanaatama/a1111-microsoftexcel-locon /content/microsoftexcel/extensions/a1111-microsoftexcel-locon
+git clone https://github.com/hariphoenix1708/a1111-microsoftexcel-lycoris /content/microsoftexcel/extensions/a1111-microsoftexcel-lycoris
 
 curl -Lo /content/microsoftexcel/extensions/microsoftexcel-images-browser.zip https://huggingface.co/nolanaatama/colab/resolve/main/microsoftexcel-images-browser.zip
 cd /content/microsoftexcel/extensions
