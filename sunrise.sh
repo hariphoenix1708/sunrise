@@ -20,7 +20,8 @@ cd /content/microsoftexcel/extensions
 unzip /content/microsoftexcel/extensions/microsoftexcel-images-browser.zip
 cd /content
 # Model Code
-cp /content/drive/MyDrive/Stable-diffusion/iswdef-woman-1611-iswdef.ckpt /content/microsoftexcel/models/Stable-diffusion/iswdef-woman-1611-iswdef.ckpt
-cp /content/drive/MyDrive/Stable-diffusion/atmklat-woman-1611-atmklat.ckpt /content/microsoftexcel/models/Stable-diffusion/atmklat-woman-1611-atmklat.ckpt
+#cp /content/drive/MyDrive/Stable-diffusion/iswdef-woman-1611-iswdef.ckpt /content/microsoftexcel/models/Stable-diffusion/iswdef-woman-1611-iswdef.ckpt
+#cp /content/drive/MyDrive/Stable-diffusion/atmklat-woman-1611-atmklat.ckpt /content/microsoftexcel/models/Stable-diffusion/atmklat-woman-1611-atmklat.ckpt
 cp /content/drive/MyDrive/Stable-diffusion/malklat-woman-1611-malklat.ckpt /content/microsoftexcel/models/Stable-diffusion/malklat-woman-1611-malklat.ckpt
-cp /content/drive/MyDrive/Stable-diffusion/meinahentai_v4.safetensors /content/microsoftexcel/models/Stable-diffusion/meinahentai_v4.safetensors
+#cp /content/drive/MyDrive/Stable-diffusion/meinahentai_v4.safetensors /content/microsoftexcel/models/Stable-diffusion/meinahentai_v4.safetensors
+cp /content/drive/MyDrive/Stable-diffusion/srsshty.ckpt /content/microsoftexcel/models/Stable-diffusion/srsshty.ckpt
